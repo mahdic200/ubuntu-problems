@@ -8,7 +8,7 @@ then you need to install the installation file :
 
 `sudo chmod 755 [package_name]`
 
-`then sudo ./[package_name]`
+then `sudo ./[package_name]`
 
 for running xamp you need to create a sh file to do this code for you:
 
