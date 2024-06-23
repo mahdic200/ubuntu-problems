@@ -5,6 +5,15 @@ curl -O https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install
 sudo bash install-release.sh
 ```
 
+### start v2ray
+
+run this command :
+
+```shell
+sudo v2ray -config [custom_config_json]
+```
+
+
 ## to use clash
 
 ```shell
