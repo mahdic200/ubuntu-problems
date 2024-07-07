@@ -21,4 +21,4 @@ if apt is not WORKING CORRECTLY , please consider reading these pages I wrote fo
 2. connect apt to your local proxy settings in ubutnu (127.0.0.1)
 #### pages : 
 - [[proxy in ubuntu]]
-- [[apt Ign error]]
+- [[apt network issues]]
