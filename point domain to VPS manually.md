@@ -1,0 +1,5 @@
+go to dash.cloudflare.com . register a new website from left sidebar . the cloudflare will give you two DNSs . set them on your domain registration provider panel . this process needs to be validated . this will took at most 4 hours . after that you must go to your websites list in cloudflare dashboard and then click on website .
+
+but don't care and just go to DNS records section of your website . add two records one with A type and @ value refering to your vps IPv4 address and disable proxy check . and one again with A type and value www refering to your ip address and disable proxy check .
+
+that should work BUT . PLEASE ! I begging you . BE CAREFUL at putting that GOD DAMIN IPV4 address . I put wrong IP address and I gone into a completed chaos for 3 god damn days . copy the ip address from your vps login session and don not trust your eyes or memory either ! . good luck :) .

@@ -63,6 +63,11 @@ follow these instructions
 ssh-keygen -t <DESIRED_ID> -C "<your_github_email_address>"
 ```
 
+example:
+```shell
+ssh-keygen -t rsa -b 4096 -C "someguy@gmail.com"
+```
+
 example :
 
 ```shell
@@ -119,7 +124,7 @@ ssh-add ~/.ssh/id_<the_id_picked>
 exampl , without any postfix like `.pub`:
 
 ```shell
-ssh-add ~/.ssh/id_e25519
+ssh-add ~/.ssh/id_e25519 # or ~/.ssh/id_rsa
 ```
 
 
