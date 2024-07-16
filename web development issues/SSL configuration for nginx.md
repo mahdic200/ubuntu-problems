@@ -50,8 +50,32 @@ if everything is ok :
 sudo systemctl restart nginx
 ```
 
+# Nginx HTTPS redirection
 
+just separate listening ports for 80 and 443 on a config file for a domain .
 
+```nginx.conf
+server {
+	listen 80;
+	listen [::]:80;
+	server_name domain www.domain;
+
+	location / {
+		return 301 https://$host$request_uri;
+	}
+}
+server {
+	listen 443 ssl;
+	listen [::]:443 ssl;
+
+	server_name domain www.domain;
+	ssl_certificate /path/to/fullchain.pem;
+	ssl_certificate_key /peth/to/privkey.pem;
+
+	ssl_protocols TLSv1 TLSv1.1 TLSv1.2 TLSv1.3;
+	ssl_ciphers HIGH:!aNULL:!MD5;
+}
+```
 
 
 
