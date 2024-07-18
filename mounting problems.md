@@ -25,3 +25,15 @@ sudo umount /media/USER/picked_name
 ```
 
 done :)
+
+# Read only file system error
+for ntfs file systems you should fix them because dual boot will harm your drive system file type :
+
+
+```shell
+sudo apt install ntfs-3g
+```
+
+```shell
+sudo ntfsfix /path/to/drive
+```

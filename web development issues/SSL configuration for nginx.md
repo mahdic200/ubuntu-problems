@@ -25,7 +25,7 @@ sudo nano /etc/nginx/sites-available/domain.ir
 
 there should be some code like this :
 
-```shell
+```nginx
 server {
     listen 80;
     listen [::]:80;
@@ -54,7 +54,7 @@ sudo systemctl restart nginx
 
 just separate listening ports for 80 and 443 on a config file for a domain .
 
-```nginx.conf
+```nginx
 server {
 	listen 80;
 	listen [::]:80;
