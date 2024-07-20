@@ -1,0 +1,1 @@
+go to settings > Accessibility > seeing > turn on the large text option .

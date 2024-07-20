@@ -35,5 +35,5 @@ sudo apt install ntfs-3g
 ```
 
 ```shell
-sudo ntfsfix /path/to/drive
+sudo ntfsfix -b -d /path/to/drive
 ```

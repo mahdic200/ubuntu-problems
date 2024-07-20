@@ -1,3 +1,11 @@
+# docker.ir see this page
+
+for iranian people , you must see this page and use it's mirror and proxy server . thank you :) , none of the previous steps are requierd .
+
+just add docker.ir proxy server in `~/.docker/config.json` and add mirror to `/etc/docker/daemon.json` . FUCK IRAN AND FUCK DOCKER .
+
+
+
 ```shell
 sudo mkdir -p /etc/systemd/system/docker.service.d
 ```
