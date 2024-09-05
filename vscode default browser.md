@@ -1,0 +1,1 @@
+go to settings and search : workbench: external browser
