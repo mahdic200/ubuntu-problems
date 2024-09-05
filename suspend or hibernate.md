@@ -1,0 +1,3 @@
+```shell
+systemctl suspend
+```
