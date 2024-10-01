@@ -71,6 +71,28 @@ Change the Permissions of All Files Inside a Directory
 find /path/to/parent_directory -type f -exec chmod 644 {} \;
 ```
 
+# Compressing and Decompressing with 7z
+
+### Installing 7zip
+
+```shell
+sudo apt install p7zip-full
+```
+
+### Compressing
+usage example :
+
+```shell
+7z a archive_name.7z /path/to/directory
+```
+
+### Decompressing
+
+```shell
+7z x archive_name.7z
+```
+
+
 
 
 
