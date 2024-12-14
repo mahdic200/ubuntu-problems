@@ -1,4 +1,4 @@
-# preparing desktop
+# desktop icons ng
 
 after adding [[add sources list | sources list]] to `/etc/apt/sources.list` enter this command to `bash` then restart the pc .
 

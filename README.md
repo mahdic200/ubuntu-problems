@@ -1,5 +1,7 @@
 # ubuntu problems ! written by [mahdic200](https://github.com/mahdic200)
 
+> [!NOTE]
+
 in this series of Markdown Files , I've wrote a bunch of notes which are really handy ! . specially for beginners like us in ubuntu which are not comfortable without GUI .
 
 there are many answers for questions like :
