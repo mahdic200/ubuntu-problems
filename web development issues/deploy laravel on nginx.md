@@ -13,6 +13,12 @@ if anything goes wrong just install `ppa-purge` and remove `ppa:ondrej/nginx-mai
 sudo apt install php8.1 php8.1-fpm php8.1-cli php8.1-common php8.1-mysql php8.1-zip php8.1-gd php8.1-mbstring php8.1-curl php8.1-xml php8.1-bcmath
 ```
 
+general command :
+
+```shell
+sudo apt install php php-fpm php-cli php-common php-mysql php-zip php-gd php-mbstring php-curl php-xml php-bcmath
+```
+
 now configure php for your site nginx settings :
 
 ```nginx
